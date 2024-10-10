@@ -1,0 +1,63 @@
+### IntelliJ + STS + NetBeans + VS Code + Java + Gradle ###
+
+# IntelliJ IDEA, STS (Spring Tool Suite), NetBeans, and VS Code
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.vscode/
+
+# Spring Tool Suite (STS)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Java
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# Gradle
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+.gradletasknamecache
+*.hprof
+
+# Ignore HELP.md files
+HELP.md
+
+# application.properties
+*.properties
+application.properties
+Back/src/main/resources/application.properties
+
